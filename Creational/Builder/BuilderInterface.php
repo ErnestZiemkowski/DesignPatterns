@@ -8,7 +8,7 @@
 
 namespace DesignPatterns\Creational\Builder;
 
-use DesignPatterns\Creational\Builder\Vehicle;
+use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 interface BuilderInterface
 {
@@ -17,6 +17,8 @@ interface BuilderInterface
     public function addWheel();
 
     public function addEngine();
+
+    public function addDoors();
 
     public function getVehicle(): Vehicle;
 }

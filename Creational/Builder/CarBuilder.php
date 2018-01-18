@@ -10,7 +10,7 @@ namespace DesignPatterns\Creational\Builder;
 
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
-class CarBuilder implements BuilderInterface,BuilderCarInterface
+class CarBuilder implements BuilderInterface
 {
     /**
      * @var Parts\Car
@@ -33,9 +33,9 @@ class CarBuilder implements BuilderInterface,BuilderCarInterface
 
     public function addWheel()
     {
-        $this->car->setPart('wheelLF', new Parts\Wheel());
         $this->car->setPart('wheelRF', new Parts\Wheel());
         $this->car->setPart('wheelLB', new Parts\Wheel());
+        $this->car->setPart('wheelLF', new Parts\Wheel());
         $this->car->setPart('wheelRB', new Parts\Wheel());
     }
 
