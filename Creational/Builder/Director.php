@@ -12,6 +12,8 @@ use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
 class Director
 {
+    private $costs;
+
     public function build(BuilderInterface $builder, BuilderCarInterface $builderCar): Vehicle
     {
         $builder->createVehicle();
