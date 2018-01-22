@@ -81,8 +81,8 @@ msgid "BuilderInterface.php"
 msgstr "BuilderInterface.php"
 
 #: ../../Creational/Builder/README.rst:47
-msgid "BikeBuilder.php"
-msgstr "BikeBuilder.php"
+msgid "TruckBuilderr.php"
+msgstr "TruckBuilderr.php"
 
 #: ../../Creational/Builder/README.rst:53
 msgid "CarBuilder.php"
@@ -93,8 +93,8 @@ msgid "Parts/Vehicle.php"
 msgstr "Parts/Vehicle.php"
 
 #: ../../Creational/Builder/README.rst:65
-msgid "Parts/Bike.php"
-msgstr "Parts/Bike.php"
+msgid "Parts/Truckk.php"
+msgstr "Parts/Truck.phpp"
 
 #: ../../Creational/Builder/README.rst:71
 msgid "Parts/Car.php"

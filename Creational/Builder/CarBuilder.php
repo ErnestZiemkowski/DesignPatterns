@@ -10,7 +10,7 @@ namespace DesignPatterns\Creational\Builder;
 
 use DesignPatterns\Creational\Builder\Parts\Vehicle;
 
-class CarBuilder implements BuilderInterface,BuilderCarInterface
+class CarBuilder implements BuilderInterface
 {
     /**
      * @var Parts\Car

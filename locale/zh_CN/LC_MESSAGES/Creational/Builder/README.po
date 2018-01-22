@@ -75,7 +75,7 @@ msgid "BuilderInterface.php"
 msgstr ""
 
 #: ../../Creational/Builder/README.rst:47
-msgid "BikeBuilder.php"
+msgid "TruckBuilderr.php"
 msgstr ""
 
 #: ../../Creational/Builder/README.rst:53
@@ -87,7 +87,7 @@ msgid "Parts/Vehicle.php"
 msgstr ""
 
 #: ../../Creational/Builder/README.rst:65
-msgid "Parts/Bike.php"
+msgid "Parts/Truck.phpp"
 msgstr ""
 
 #: ../../Creational/Builder/README.rst:71
